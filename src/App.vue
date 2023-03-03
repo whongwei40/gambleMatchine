@@ -397,16 +397,6 @@
 		name: 'App',
 		methods: {
 			sendRequest(value) {
-
-				// 调用后端函数并传入参数 value
-				// 例如：
-				// axios.post('/backend/api', { value })
-				//   .then(response => {
-				//     // 处理响应
-				//   })
-				//   .catch(error => {
-				//     // 处理错误
-				//   })
 				console.log('send request with value:', value)
 			},
 			recharge() {
